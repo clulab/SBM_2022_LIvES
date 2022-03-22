@@ -1,25 +1,160 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
 cff-version: 1.2.0
-preferred-citation:
-  type: pamphlet
-  message: "If you use any of the contents in this repository, please cite it as below."
-  authors:
-- family-names: "Freylersythe"
-    given-names: "Sarah"
-- family-names: "Sharp"
-    given-names: "Rebecca"
-- family-names: "Culnan"
-    given-names: "John"
-- family-names: "Romero Diaz"
-    given-names: "Damian Y."
-- family-names: "Zhao"
-    given-names: "Yiyun"
-- family-names: "Franks"
-    given-names: "G. Hagan"
-- family-names: "Nitschke"
-    given-names: "Remo"
-- family-names: "Bethard"
-    given-names: "Steven J."
-- family-names: "Crane"
-    given-names: "Tracy E."
-  title: "Lessons Learned from a Secondary Analysis Using Natural Language Processing and Machine Learning from a Lifestyle Intervention: SBM Conference Handout"
-  year: 2022
+title: >-
+  Lessons Learned from a Secondary Analysis Using
+  Natural Language Processing and Machine Learning
+  from a Lifestyle Intervention: SBM Conference
+  Handout
+message: >-
+  If you use any of the contents in this repository,
+  please cite it as below.
+type: dataset
+authors:
+  - given-names: Sarah
+    family-names: Freylersythe
+    affiliation: 'University of Arizona Cancer Center, Tucson, AZ'
+    orcid: 'https://orcid.org/0000-0002-9996-5413'
+  - given-names: Rebecca
+    family-names: Sharp
+    affiliation: 'Lex Machina, Menlo Park, CA'
+  - family-names: Culnan
+    given-names: John
+    affiliation: >-
+      Department of Linguistics, College of Social
+      and Behavioral Sciences, University of Arizona,
+      Tucson, AZ
+    orcid: 'https://orcid.org/0000-0001-7327-1053'
+  - given-names: Damian Yukio
+    family-names: Romero Diaz(
+    affiliation: >-
+      Department of Linguistics, College of Social
+      and Behavioral Sciences, University of Arizona,
+      Tucson, AZ
+    orcid: 'https://orcid.org/0000-0003-4661-0296'
+  - given-names: Yiyun
+    family-names: Zhao
+    affiliation: >-
+      Department of Linguistics, College of Social
+      and Behavioral Sciences, University of Arizona,
+      Tucson, AZ
+  - given-names: G. Hagan
+    family-names: Franks
+    affiliation: >-
+      Data Science Institute, University of Arizona,
+      Tucson, AZ
+    orcid: 'https://orcid.org/0000-0002-9267-5595'
+  - given-names: Remo
+    family-names: Nitschke
+    affiliation: >-
+      Department of Linguistics, College of Social
+      and Behavioral Sciences, University of Arizona,
+      Tucson, AZ
+  - given-names: Steven J.
+    family-names: Bethard
+    affiliation: >-
+      School of Information, College of Social and
+      Behavioral Sciences, University of Arizona,
+      Tucson, AZ
+    orcid: 'https://orcid.org/0000-0001-9560-6491'
+  - given-names: Tracy E.
+    family-names: Crane
+    affiliation: >-
+      Sylvester Comprehensive Cancer Center,
+      University of Miami, Miami, FL
+    orcid: 'https://orcid.org/0000-0002-4288-134X'
+repository-code: 'https://github.com/clulab/SBM_2022_LIvES'
+abstract: >-
+  Title: Lessons learned from a secondary analysis
+  using natural language processing and machine
+  learning from a lifestyle intervention
+
+  Authors: Sarah Freylersythe(1), Rebecca Sharp(7), 
+  John Culnan(5), Damian Y. Romero Diaz(3), Yiyun
+  Zhao (5), G. Hagan Franks(6),  Remo Nitschke(5),
+  Steven J. Bethard(2), Tracy E. Crane(4)
+
+
+  Author Affiliation:
+
+  University of Arizona Cancer Center, Tucson, AZ
+
+  School of Information, College of Social and
+  Behavioral Sciences, University of Arizona, Tucson,
+  AZ
+
+  Department of Spanish and Portuguese, College of
+  Humanities, University of Arizona, Tucson, AZ
+
+  Sylvester Comprehensive Cancer Center, University
+  of Miami, Miami, FL
+
+  Department of Linguistics, College of Social and
+  Behavioral Sciences, University of Arizona, Tucson,
+  AZ
+
+  Data Science Institute, University of Arizona,
+  Tucson, AZ
+
+  Lex Machina, Menlo Park, CA
+   
+  Background: Recorded telephone coaching sessions
+  (approximately 24,500) in English and Spanish from
+  1205 women participating in the Lifestyle
+  Intervention for oVarian cancer Enhanced Survival
+  (LIvES), GOG 0225, study were used for this
+  analysis. The LIvES Study tested whether a
+  lifestyle intervention of increased physical
+  activity and a healthy diet would increase
+  progression-free survival compared to an attention
+  control using trained health coaches and
+  Motivational Interviewing (MI), a directive,
+  patient-centered counseling approach; 323 LIvES
+  Study coaching session recordings were scored for
+  adherence to MI techniques. Here we describe
+  lessons learned from a secondary analysis of LIvES
+  data utilizing machine learning and natural
+  language processing to automate fidelity and
+  predict lifestyle behavioral outcomes.
+
+  Methods: Numerous steps were necessary to prepare
+  the call recordings for natural language
+  processing. Data were aligned through a combination
+  of participant phone numbers, coach names and
+  participant names, entry dates and recording dates.
+  Transcription was performed automatically with
+  wav2vec. An annotation interface was developed
+  using Label Studio and an annotation guideline was
+  adapted from existing Motivational Interviewing
+  Treatment Integrity (MITI) 3.0. Finally, a pilot
+  annotation of the call recordings was completed and
+  initial inter-rater reliability was measured.
+
+  Results: The process of preparing this secondary
+  analysis resulted in a number of lessons learned.
+  First, data infrastructure for the original LIvES
+  study, due to its long-running nature, evolved in
+  ways that lost data continuity. The data alignment
+  process would have been simplified by establishing
+  a single identifier to link calls, outcomes, and
+  MITI scores, and maintaining that identifier over
+  the course of the project. Second, evaluating the
+  quality of automated transcription systems is
+  difficult and could have been streamlined by
+  manually transcribing a small number of study calls
+  to be used for evaluation. Finally, training a
+  machine learning model to assess interviewer turns
+  could have been simplified by establishing a
+  protocol for coding MITI scoring using an
+  annotation tool, resulting in turn-level
+  annotations alongside the holistic scoring typical
+  of MITI.
+
+  Conclusion: Behavioral interventions should engage
+  the support of a computational scientist in the
+  study design planning stage to take advantage of
+  the largely under-utilized data collected in these
+  trials.
+license: CC-BY-4.0
+date-released: '2022-04-08'
