@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+preferred-citation:
+  type: pamphlet
+  message: "If you use any of the contents in this repository, please cite it as below."
+  authors:
+- family-names: "Freylersythe"
+    given-names: "Sarah"
+- family-names: "Sharp"
+    given-names: "Rebecca"
+- family-names: "Culnan"
+    given-names: "John"
+- family-names: "Romero Diaz"
+    given-names: "Damian Y."
+- family-names: "Zhao"
+    given-names: "Yiyun"
+- family-names: "Franks"
+    given-names: "G. Hagan"
+- family-names: "Nitschke"
+    given-names: "Remo"
+- family-names: "Bethard"
+    given-names: "Steven J."
+- family-names: "Crane"
+    given-names: "Tracy E."
+  title: "Lessons Learned from a Secondary Analysis Using Natural Language Processing and Machine Learning from a Lifestyle Intervention: SBM Conference Handout"
+  doi: "TBD"
+  year: 2022
