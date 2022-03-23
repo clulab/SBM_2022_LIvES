@@ -20,7 +20,9 @@ The content of this repository is distributed freely under a Creative Commons 4.
 
 **Cite as**
 
-Freylersythe, S., Sharp, R., Culnan, J., Romero Diaz, D. Y., Zhao, Y., Franks, G. H., Nitschke, R., Bethard, S. J., & Crane, T. E. (2022). Lessons Learned from a Secondary Analysis Using Natural Language Processing and Machine Learning from a Lifestyle Intervention: SBM Conference Handout [Data set]. https://github.com/clulab/SBM_2022_LIvES
+Sarah Freylersythe, Rebecca Sharp, John Culnan, Damian Yukio Romero Diaz, Yiyun Zhao, G. Hagan Franks, Remo Nitschke, Steven J. Bethard, and Tracy E. Crane. 2022. Lessons Learned from a Secondary Analysis Using Natural Language Processing and Machine Learning from a Lifestyle Intervention: SBM Conference Handout. Retrieved from https://github.com/clulab/SBM_2022_LIvES
+
+*Note: This citation is in [ACM format](https://www.acm.org/publications/authors/reference-formatting). For other formatting please use the "`Cite this repository`" button on the right menu of this repository along with a bibtext converter such as this one: [Online Bibtex Converter](https://asouqi.github.io/bibtex-converter/)*
 
 
 # Lessons Learned from a Secondary Analysis Using Natural Language Processing and Machine Learning from a Lifestyle Intervention
@@ -61,3 +63,4 @@ Behavioral interventions should engage the support of a computational scientist 
 
 Damian Yukio Romero Diaz. (2022). "Using natural language processing to determine predictors of healthy diet and physical activity behavior change in ovarian cancer survivors" [Data Management Plan]. DMPHub. https://doi.org/10.48321/D1BK5T
 
+Alejandra Irlena Peñaloza. (2020). Responsiveness to Motivational Interviewing Among Latina Ovarian Cancer Survivors Participating in a Large, Well Powered RCT: A Mixed Methods Analysis [University of Arizona]. UA Campus Repository. http://hdl.handle.net/10150/642195
