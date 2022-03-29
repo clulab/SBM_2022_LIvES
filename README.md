@@ -1,22 +1,19 @@
 ## LIvES NLP Team presentation at the Society of Behavioral Medicine (2022)
 
-**Poster Presentation**
+**Details**
 
-Lessons Learned from a Secondary Analysis Using Natural Language Processing and Machine Learning from a Lifestyle Intervention
+- Presentation type:
+  - Poster Presentation
+- Title:
+  - Lessons Learned from a Secondary Analysis Using Natural Language Processing and Machine Learning from a Lifestyle Intervention
+- Session date and place:
+  - Friday, April 8 from 5:00 PM to 5:50 PM at the Hilton Baltimore Inner Harbor
+- Poster available at:
+  - ![LIvES SBM 2022 Poster](https://docs.google.com/presentation/d/1HuWLNhYB-IOflkUaE5d84KNCFW-QXl2ATyTQV5lwu8U/edit?usp=sharing)
+- Corresponding authors:
+  - Dr. Steven J. Bethard (bethard@arizona.edu)
+  - Dr. Tracy E. Crane (tecrane@med.miami.edu)
 
-**Session date**
-
-Friday, April 8 from 5:00 PM to 5:50 PM at the Hilton Baltimore Inner Harbor
-
-**Poster link**
-
-[Lessons Learned from a Secondary Analysis Using Natural Language Processing and Machine Learning from a Lifestyle Intervention](https://docs.google.com/presentation/d/1HuWLNhYB-IOflkUaE5d84KNCFW-QXl2ATyTQV5lwu8U/edit?usp=sharing)
-
-**License**
-
-The content of this repository is distributed freely under a Creative Commons 4.0 International license (CC by 4.0). You are free to share and adapt as long as you use the citation below, provide a link to the license, and indicate if changes were made. The full license can be found at [https://creativecommons.org/licenses/by/4.0/legalcode](https://creativecommons.org/licenses/by/4.0/legalcode).
-
-![CC by 4.0 logo](https://i.creativecommons.org/l/by/4.0/88x31.png)
 
 **Cite as**
 
@@ -25,23 +22,20 @@ Sarah Freylersythe, Rebecca Sharp, John Culnan, Damian Yukio Romero Diaz, Yiyun 
 *Note: This citation is in [ACM format](https://www.acm.org/publications/authors/reference-formatting). For other formatting please use the "`Cite this repository`" button on the right menu of this repository along with a bibtext converter such as this one: [Online Bibtex Converter](https://asouqi.github.io/bibtex-converter/)*
 
 
+**License**
+
+The content of this repository is distributed freely under a Creative Commons 4.0 International license (CC by 4.0). You are free to share and adapt as long as you use the citation below, provide a link to the license, and indicate if changes were made. The full license can be found at [https://creativecommons.org/licenses/by/4.0/legalcode](https://creativecommons.org/licenses/by/4.0/legalcode).
+
+![CC by 4.0 logo](https://i.creativecommons.org/l/by/4.0/88x31.png)
+
+
 # Lessons Learned from a Secondary Analysis Using Natural Language Processing and Machine Learning from a Lifestyle Intervention
+
+
 ## SBM Conference Handout
 
-Sarah Freylersythe(1), Rebecca Sharp(7),  John Culnan(5), Damian Y. Romero Diaz(3), Yiyun Zhao (5), G. Hagan Franks(6),  Remo Nitschke(5), Steven J. Bethard(2), Tracy E. Crane(4)
-
-1. University of Arizona Cancer Center, Tucson, AZ
-2. School of Information, College of Social and Behavioral Sciences, University of Arizona, Tucson, AZ
-3. Department of Spanish and Portuguese, College of Humanities, University of Arizona, Tucson, AZ
-4. Sylvester Comprehensive Cancer Center, University of Miami, Miami, FL
-5. Department of Linguistics, College of Social and Behavioral Sciences, University of Arizona, Tucson, AZ
-6. Data Science Institute, University of Arizona, Tucson, AZ
-7. Lex Machina, Menlo Park, CA
 
 ![Iceberg figure](https://github.com/clulab/SBM_2022_LIvES/blob/main/visuals/iceberg_figure.png)
-
-
-
 
 
 ## Background
@@ -59,8 +53,26 @@ The process of preparing this secondary analysis resulted in a number of lessons
 
 Behavioral interventions should engage the support of a computational scientist in the study design planning stage to take advantage of the largely under-utilized data collected in these trials.
 
+### Acknowledgement of financial support
+
+This work was supported by the following grants:
+
+- LIvES Study (GOG 0225) NCT00719303
+- BMISR UACC P30 CA023074
+- NLP/ML NIH/NCI 1R21CA256680-01
+
+
+ MPIs:
+ - Dr. Steven J. Bethard
+ - Dr. Tracy E. Crane
+
 ### References
 
 Damian Yukio Romero Diaz. (2022). "Using natural language processing to determine predictors of healthy diet and physical activity behavior change in ovarian cancer survivors" [Data Management Plan]. DMPHub. https://doi.org/10.48321/D1BK5T
 
 Alejandra Irlena Peñaloza. (2020). Responsiveness to Motivational Interviewing Among Latina Ovarian Cancer Survivors Participating in a Large, Well Powered RCT: A Mixed Methods Analysis [University of Arizona]. UA Campus Repository. http://hdl.handle.net/10150/642195
+
+Cynthia A. Thomson, Tracy E. Crane, Austin Miller, David O. Garcia, Karen Basen-Engquist, David S. Alberts (2016). A randomized trial of diet and physical activity in women treated for stage II–IV ovarian cancer: Rationale and design of the Lifestyle Intervention for Ovarian Cancer Enhanced Survival (LIVES): An NRG Oncology/Gynecologic Oncology Group (GOG-225) Study. Contemporary Clinical Trials, 49, 181–189. https://doi.org/10.1016/j.cct.2016.07.005
+
+
+https://clinicaltrials.gov/ct2/show/NCT00719303
