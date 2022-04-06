@@ -14,9 +14,9 @@
   - Dr. Steven J. Bethard (bethard@arizona.edu)
   - Dr. Tracy E. Crane (tecrane@med.miami.edu)
 - **Social Media**
-  - #cranelab
-  - @sylvestercancer
-  - @DrTracyECrane
+  - [Twitter #cranelab](https://twitter.com/search?q=%23cranelab&src=typed_query)
+  - [@sylvestercancer](https://twitter.com/SylvesterCancer)
+  - [@DrTracyECrane](https://twitter.com/DrTracyECrane)
 
 ### Cite as
 
@@ -108,13 +108,9 @@ Numerous costly measures were taken to re-use our data:
 
 This work was supported by the following grants:
 
-- LIvES Study (GOG 0225) NCT00719303
+- [LIvES Study (GOG 0225) NCT00719303](https://clinicaltrials.gov/ct2/show/NCT00719303)
 - BMISR UACC P30 CA023074
-- NLP/ML NIH/NCI 1R21CA256680-01
-
-MPIs:
- - Dr. Steven J. Bethard
- - Dr. Tracy E. Crane
+- NLP/ML NIH/NCI 1R21CA256680-01 (MPI: Tracy E. Crane/Steven J. Bethard)
 
 ### References
 
@@ -131,8 +127,6 @@ MPIs:
 [6]BigScience Workshop. BigScience Biomedical (BIGBIO) NLP Hackathon. Retrieved April 5, 2022 from https://hfbigbio.github.io/
 
 [7]Mark D. Wilkinson, Michel Dumontier, IJsbrand Jan Aalbersberg, Gabrielle Appleton, Myles Axton, Arie Baak, Niklas Blomberg, Jan-Willem Boiten, Luiz Bonino da Silva Santos, Philip E. Bourne, Jildau Bouwman, Anthony J. Brookes, Tim Clark, Mercè Crosas, Ingrid Dillo, Olivier Dumon, Scott Edmunds, Chris T. Evelo, Richard Finkers, Alejandra Gonzalez-Beltran, Alasdair J.G. Gray, Paul Groth, Carole Goble, Jeffrey S. Grethe, Jaap Heringa, Peter A.C ’t Hoen, Rob Hooft, Tobias Kuhn, Ruben Kok, Joost Kok, Scott J. Lusher, Maryann E. Martone, Albert Mons, Abel L. Packer, Bengt Persson, Philippe Rocca-Serra, Marco Roos, Rene van Schaik, Susanna-Assunta Sansone, Erik Schultes, Thierry Sengstag, Ted Slater, George Strawn, Morris A. Swertz, Mark Thompson, Johan van der Lei, Erik van Mulligen, Jan Velterop, Andra Waagmeester, Peter Wittenburg, Katherine Wolstencroft, Jun Zhao, and Barend Mons. 2016. The FAIR Guiding Principles for scientific data management and stewardship. Scientific Data 3, (March 2016). DOI:https://doi.org/10.1038/sdata.2016.18
-
-[8]... ? [https://clinicaltrials.gov/ct2/show/NCT00719303](https://clinicaltrials.gov/ct2/show/NCT00719303)
 
 ## License
 
