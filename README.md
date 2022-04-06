@@ -27,6 +27,15 @@ Sarah Freylersythe, Rebecca Sharp, John Culnan, Damian Yukio Romero Diaz, Yiyun 
 
 ## Conference Handout
 
+### 0. Definitions
+
+We created this small glossary for those who are unfamiliar with machine learning and AI terminology but would like to learn more about our work.
+
+1. [Natural Language Processing (NL)](https://en.wikipedia.org/wiki/Natural_language_processing). A field of research and engineering concerned with the computational analysis of natural language data.
+2. [Machine Learning (ML)](https://en.wikipedia.org/wiki/Machine_learning). A field of research and engineering concerned with the study of algorithms that, through applied statistics, improve on their own predictions over different kinds of data.
+3. [Diarization](https://en.wikipedia.org/wiki/Speaker_diarisation). In NLP it is the detection of speaker turns, AKA who spoke what and when.
+4. [Annotation](https://en.wikipedia.org/wiki/Data_curation). In computational and data management fields, data annotation is the process of recording the analysis of particular instances of data into any format. ***It is commonly referred to as "data coding"*** and it is part of data curation.
+5. [Language/ML models](https://en.wikipedia.org/wiki/Language_model). Statistical representations of human language are abstracted from large quantities of data through machine learning or artificial intelligence. They are either meant to aid analyses or the result of new analyses.
 ### Background
 
 - We faced ***challenges related to data re-usability*** while working on a secondary analysis of the Lifestyle Intervention for oVarian cancer Enhanced Survival (***LIvES***), GOG 0225.
@@ -74,7 +83,7 @@ Numerous costly measures were taken to re-use our data:
 | Lack of planning for data derivatives. E.g., (1) Using non-machine-friendly data annotation methods (2) Missed opportunities to collect audio diarizations from original study (3) Missed opportunities to use personnel expertise for usable data | Training personnel to re-do what experts had already done (MITI scores and fidelity scores), plus assigning new personnel to do tasks that original personnel were already doing but not recording | Approximately 170 hrs. of manual work, including training of new personnel and data re-annotation | Plan for machine-friendly data structure and format. Co-collect data and data derivatives: if the study personnel are generating data derivates, find ways to collect them. If possible, use the expertise of the study personnel to generate additional data that might be helpful for future research.|
 | Incomplete socio-cultural background data. E.g., No language, cultural or socio-cultural background information collected in the LIvES demographics | Use proxies (e.g., language preference) whenever possible. Proxies are seldom free of confounding factors, so data must be carefully interpreted | Missed opportunities for analysis. E.g., Missing acculturation information for Latina participants does not allow for between-group comparisons, and we needed to use language preference (Spanish vs. English) as proxies [2] | Collect culturally relevant data in all studies. If possible, survey the population or estimate its characteristics using census data before any intervention takes place. |
 | No de-identification of HIPAA data. E.g., Personally identifiable information was still present in the audio files from the LIvES study | (1) Setting up a HIPAA-compliant HPC cloud system (2) Work with smaller, compressed ML models, which sacrifice accuracy (3) Manual de-identification was needed in certain cases | Analysis turnaround was delayed because of the need to secure HIPAA-compliant high-performance computers | Create data de-identification protocols for all data types. |
-| Consenting only participants. E.g., Coaches' consent was not obtained in the original LIvES study  | Re-consent coaches | 40 hrs. of work and in some cases we could not get in touch with some of the coaches which means the data was lost | Consent all the people involved, not only participants. |
+| Consenting only participants. E.g., Coaches' consent was not obtained in the original LIvES study  | We had to complete an additional IRB application for using the coaches' data since we did not previously get their consent | 40 hrs. of work and in some cases we could not get in touch with some of the coaches which means the data was lost | Consent all the people involved, not only participants. |
 
 ### Discussion
 
