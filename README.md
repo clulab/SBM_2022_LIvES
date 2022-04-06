@@ -1,5 +1,6 @@
 ## LIvES NLP Team presentation at the Society of Behavioral Medicine (2022)
 
+![visitors](https://visitor-badge.glitch.me/badge?page_id=damian-romero/clulab/SBM_2022_LIvES&left_color=green&right_color=red)
 ### Details
 
 - **Presentation type:**
@@ -87,10 +88,11 @@ Numerous costly measures were taken to re-use our data:
 - Numerous steps were necessary to prepare the natural language processing and machine learning analyses
   - Data were aligned manually through a combination of participant phone numbers, coach names and participant names, entry dates, and recording dates
   - Transcription was performed both manually and then automatically with wav2vec [4]
-  - An annotation interface was developed using Label Studio and an annotation guideline was adapted from existing Motivational Interviewing Treatment Integrity (MITI) 3.0
-  - A pilot annotation of the call recordings was completed and initial inter-rater reliability was measured
-  - We worked with small compressed ML models in researchers' personal computers
-  - We set-up a HIPAA-compliant infrastructure for data annotation and improved ML analyses
+  - The reliability of the automatic transcription was poor, so we developed a process to improve its accuracy using speaker turn detection, which required manual annotation
+  - An annotation interface was developed using Label Studio for speaker turn identification and content coding
+  - Coding guidelines were developed for Motivational Interviewing Treatment Integrity (MITI) 3.0 and protocol fidelity
+  - Due to lack of data de-identification, we had to perform ML/NLP analyses using researchers' personal computers with limited, non-state of the art compressed ML models
+  - We set up a HIPAA-compliant infrastructure for data annotation and to improve ML analyses
   - We developed a data management plan to help us avoid previous mistakes [5]. The data management plan is [publically available](https://dmptool.org/plans/74502/export.pdf?export[question_headings]=true) for other researchers to consult
 
 - Actionable data management foresight
