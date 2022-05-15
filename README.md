@@ -10,7 +10,7 @@
 - **Session date and place:**
   - Friday, April 8, from 5:00 PM to 5:50 PM at the Hilton Baltimore Inner Harbor
 - **Poster available at:**
-  - [LIvES SBM 2022 Poster](https://docs.google.com/presentation/d/1HuWLNhYB-IOflkUaE5d84KNCFW-QXl2ATyTQV5lwu8U/edit?usp=sharing)
+  - [LIvES SBM 2022 Poster](https://doi.org/10.25422/azu.data.19576069.v1)
 - **Corresponding authors:**
   - Dr. Steven J. Bethard (bethard@arizona.edu)
   - Dr. Tracy E. Crane (tecrane@med.miami.edu)
@@ -29,7 +29,7 @@ Sarah Freylersythe, Rebecca Sharp, John Culnan, Damian Yukio Romero Diaz, Yiyun 
 
 ### 0. Definitions
 
-We created this small glossary for those who are unfamiliar with machine learning and AI terminology but would like to learn more about our work.
+We created this small glossary for those who are unfamiliar with some of the machine learning and natural language processing terminology we use but would like to learn more about our work.
 
 1. [Natural Language Processing (NL)](https://en.wikipedia.org/wiki/Natural_language_processing). A field of research and engineering concerned with the computational analysis of natural language data.
 2. [Machine Learning (ML)](https://en.wikipedia.org/wiki/Machine_learning). A field of research and engineering concerned with the study of algorithms that, through applied statistics, improve on their own predictions over different kinds of data.
@@ -87,28 +87,28 @@ Numerous costly measures were taken to re-use our data:
 
 ### Discussion
 
-- The LIvES study data was not prepared for NLP/ML analyses
-  - The data infrastructure for the original LIvES study, due to its long-running nature, evolved in ways that lost data continuity
-  - The data alignment process would have been simplified by establishing a single identifier to link calls, outcomes, and MITI scores and maintaining that identifier over the course of the project
-  - Evaluating the quality of automated transcription systems is difficult and could have been streamlined by manually transcribing a small number of study calls to be used for evaluation
-  - Data de-identification would have simplified NLP/ML analyses. Because current Transformer-based models for NLP "can be too large and computationally intensive to run on standard deployments" [3], non-de-identified data needs to run on HIPAA compliant high-performance computers, which are more difficult to set up, especially within an academic institution.
-  - Training a machine learning model to assess interviewer turns could have been simplified by establishing a protocol for coding MITI scoring using an annotation tool, resulting in turn-level annotations alongside the holistic scoring typical of MITI
+#### The LIvES study data was not prepared for NLP/ML analyses
+- The data infrastructure for the original LIvES study, due to its long-running nature, evolved in ways that lost data continuity
+- The data alignment process would have been simplified by establishing a single identifier to link calls, outcomes, and MITI scores and maintaining that identifier over the course of the project
+- Evaluating the quality of automated transcription systems is difficult and could have been streamlined by manually transcribing a small number of study calls to be used for evaluation
+- Data de-identification would have simplified NLP/ML analyses. Because current Transformer-based models for NLP "can be too large and computationally intensive to run on standard deployments" [3], non-de-identified data needs to run on HIPAA compliant high-performance computers, which are more difficult to set up, especially within an academic institution.
+- Training a machine learning model to assess interviewer turns could have been simplified by establishing a protocol for coding MITI scoring using an annotation tool, resulting in turn-level annotations alongside the holistic scoring typical of MITI
 
-- Numerous steps were necessary to prepare the natural language processing and machine learning analyses
-  - Data were aligned manually through a combination of participant phone numbers, coach names and participant names, entry dates, and recording dates
-  - Transcription was performed both manually and then automatically with wav2vec [4]
-  - The reliability of the automatic transcription was poor, so we developed a process to improve its accuracy using speaker turn detection, which required manual annotation
-  - An annotation interface was developed using Label Studio for speaker turn identification and content coding
-  - Coding guidelines were developed for Motivational Interviewing Treatment Integrity (MITI) 3.0 and protocol fidelity
-  - Due to lack of data de-identification, we had to perform ML/NLP analyses using researchers' personal computers with limited, non-state of the art compressed ML models
-  - We set up a HIPAA-compliant infrastructure for data annotation and to improve ML analyses
-  - We developed a data management plan to help us avoid previous mistakes [5]. The data management plan is [publically available](https://dmptool.org/plans/74502/export.pdf?export[question_headings]=true) for other researchers to consult
+#### Numerous steps were necessary to prepare the natural language processing and machine learning analyses
+- Data were aligned manually through a combination of participant phone numbers, coach names and participant names, entry dates, and recording dates
+- Transcription was performed both manually and then automatically with wav2vec [4]
+- The reliability of the automatic transcription was poor, so we developed a process to improve its accuracy using speaker turn detection, which required manual annotation
+- An annotation interface was developed using Label Studio for speaker turn identification and content coding
+- Coding guidelines were developed for Motivational Interviewing Treatment Integrity (MITI) 3.0 and protocol fidelity
+- Due to lack of data de-identification, we had to perform ML/NLP analyses using researchers' personal computers with limited, non-state of the art compressed ML models
+- We set up a HIPAA-compliant infrastructure for data annotation and to improve ML analyses
+- We developed a data management plan to help us avoid previous mistakes [5]. The data management plan is [publically available](https://dmptool.org/plans/74502/export.pdf?export[question_headings]=true) for other researchers to consult
 
-- Actionable data management foresight
-  - Beyond being a requirement, traditional data management plans are extremely helpful in data governance and for making data re-usable
-  - Comprehensive data re-usability is critical for machine learning and artificial intelligence analysis and development
-  - Traditional data management for health interventions must be taken one step further to plan for interfacing with current and future technologies even if these would not be used in the current study
-  - Biomedical datasets are not well-documented and not easily incorporated into popular machine learning frameworks [6]. Although [ongoing efforts](https://github.com/bigscience-workshop/biomedical) are trying to change this, we suggest that all health interventions apply the FAIR principles of Findability, Accessibility, Interoperability, and Reusability to help accelerate this process [7]
+#### Actionable data management foresight
+- Beyond being a requirement, traditional data management plans are extremely helpful in data governance and for making data re-usable
+- Comprehensive data re-usability is critical for machine learning and artificial intelligence analysis and development
+- Traditional data management for health interventions must be taken one step further to plan for interfacing with current and future technologies even if these would not be used in the current study
+- Biomedical datasets are not well-documented and not easily incorporated into popular machine learning frameworks [6]. Although [ongoing efforts](https://github.com/bigscience-workshop/biomedical) are trying to change this, we suggest that all health interventions apply the FAIR principles of Findability, Accessibility, Interoperability, and Reusability to help accelerate this process [7]
 
 ### Conclusion
 
